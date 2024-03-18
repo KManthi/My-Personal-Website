@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>My Personal Website</title>
   </head>
@@ -10,12 +16,17 @@
     <script src="./script.js"></script>
     <div class="hero">
       <nav>
-        <h2 class="logo">Daniel<span> Kamanthi </span></h2>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./about.html">About Me</a></li>
-          <li><a href="./contact.html">Contacts</a></li>
-        </ul>
+        <img
+          src="./images/dk-high-resolution-logo-transparent.png"
+          alt="logo"
+          class="logo"
+        />
+        <div id="nav">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About Me</a></li>
+          </ul>
+        </div>
       </nav>
       <div class="me">
         <h4>Hello, my name is</h4>
@@ -24,6 +35,12 @@
           I'm a budding programmer and this is the website I will use to track
           and update my progress.
         </p>
+      </div>
+      <div id="contacts">
+        <ul>
+          <li><a href="mailto:dani3lkamanthi@gmail.com">Email</a></li>
+          <li><a href="https://github.com/KManthi">GitHub</a></li>
+        </ul>
       </div>
     </div>
   </body>
