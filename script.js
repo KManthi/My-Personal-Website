@@ -1,5 +1,5 @@
 function handleViewportSizeChange() {
-    var viewportWidth = window.innerWidth;
+    const viewportWidth = window.innerWidth;
     
     if (viewportWidth < 768) {
         document.body.style.backgroundColor = '#FEF1E6' ;
